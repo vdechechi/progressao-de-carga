@@ -1,0 +1,6 @@
+@ProgessaoDeCarga_HostAddress = http://localhost:5296
+
+GET {{ProgessaoDeCarga_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
