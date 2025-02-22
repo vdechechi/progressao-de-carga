@@ -12,10 +12,10 @@ namespace ProgessaoDeCarga.Context
         }
 
         public DbSet<Treino> Treinos { get; set; }
-        public DbSet<Sessao_Treino> SessoesTreino { get; set; }
+        public DbSet<SessaoTreino> SessoesTreino { get; set; }
         public DbSet<Exercicio> Exercicios { get; set; }
         public DbSet<Serie> Series { get; set; }
-        public DbSet<Sessao_Treino_Exercicio> SessaoTreinoExercicios { get; set; }
+        public DbSet<SessaoTreinoExercicio> SessaoTreinoExercicios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
